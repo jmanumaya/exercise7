@@ -16,7 +16,28 @@ public class Exercise7 {
 		int b = 241;
 		String name = "123";
 		
-		System.out.print((a + b) + name);
+		System.out.println((a + b) + name);
+		
+		System.out.println("Lo siguiente es un ejercicio del enlace de retos de programación de moodle de Mouredev que he hecho de práctica y así pruebo tambien la edición del proyecto y demás");
+		
+		int number = 1;
+		String multthree = "fizz";
+		String multfive = "buzz";
+
+		while (number <= 100) {
+
+		    if (number % 3 == 0 && number % 5 == 0) {
+		        System.out.println(multthree + multfive);
+		    } else if (number % 3 == 0) {
+		        System.out.println(multthree);
+		    } else if (number % 5 == 0) {
+		        System.out.println(multfive);
+		    } else {
+		        System.out.println(number);
+		    }
+
+		    number++;
+		}
 
 	}
 
